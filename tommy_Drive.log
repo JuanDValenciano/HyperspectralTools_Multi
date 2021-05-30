@@ -1,0 +1,456 @@
+JuanD Valenciano
+  Tommy->
+Total objects: 278
+Total size: 244.242 GBytes (262252396797 Bytes)
+          -1 2020-02-03 08:39:13        -1 control_group
+          -1 2020-02-03 08:39:13        -1 diseased_group
+          -1 2020-02-03 08:39:13        -1 inoculated_group
+
+control_group
+                    Total objects: 69
+                    Total size: 61.727 GBytes (66279015792 Bytes)
+                    sample_1
+                      Total objects: 14
+                      Total size: 12.099 GBytes (12990700632 Bytes)
+                    sample_2
+                      Total objects: 12
+                      Total size: 10.895 GBytes (11698240872 Bytes)
+                    sample_3
+                      Total objects: 14
+                      Total size: 12.711 GBytes (13647947684 Bytes)
+                    sample_4
+                      Total objects: 16
+                      Total size: 14.526 GBytes (15597654496 Bytes)
+                    sample_5
+                      Total objects: 13
+                      Total size: 11.497 GBytes (12344472108 Bytes)
+
+diseased_group
+                    Total objects: 62
+                    Total size: 56.290 GBytes (60440911172 Bytes)
+                    sample_1
+                      Total objects: 12
+                      Total size: 10.895 GBytes (11698240872 Bytes)
+                    sample_2
+                      Total objects: 12
+                      Total size: 10.895 GBytes (11698240872 Bytes)
+                    sample_3
+                      Total objects: 12
+                      Total size: 10.895 GBytes (11698240872 Bytes)
+                    sample_4
+                      Total objects: 12
+                      Total size: 10.895 GBytes (11698240872 Bytes)
+                    sample_5
+                      Total objects: 14
+                      Total size: 12.711 GBytes (13647947684 Bytes)
+
+inoculated_group
+                    Total objects: 147
+                    Total size: 126.224 GBytes (135532469833 Bytes)
+                    sample_1
+                      Total objects: 29
+                      Total size: 25.411 GBytes (27284891905 Bytes)
+                    sample_2
+                      Total objects: 32
+                      Total size: 27.828 GBytes (29880583862 Bytes)
+                    sample_3
+                      Total objects: 27
+                      Total size: 23.003 GBytes (24699176087 Bytes)
+                    sample_4
+                      Total objects: 32
+                      Total size: 26.331 GBytes (28273048873 Bytes)
+                    sample_5
+                      Total objects: 27
+                      Total size: 23.651 GBytes (25394769106 Bytes)
+/
+├── control_group
+│   ├── sample_1
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-24T121227_corr.hdr
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-24T121227_corr.hyspex
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-25T112824_corr.hdr
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-25T112824_corr.hyspex
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-25T112824_corr.hyspex.enp
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-26T093928_corr.hdr
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-26T093928_corr.hyspex
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-27T164150_corr.hdr
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-27T164150_corr.hyspex
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-28T154814_corr.hdr
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-28T154814_corr.hyspex
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-29T111856_corr.hdr
+│   │   ├── tom_cgs_01_16000_us_2x_2019-11-29T111856_corr.hyspex
+│   │   └── tom_cgs_01_16000_us_2x_2019-11-29T111856_corr.hyspex.enp
+│   ├── sample_2
+│   │   ├── tom_cgs_02_16000_us_2x_2019-11-24T121426_corr.hdr
+│   │   ├── tom_cgs_02_16000_us_2x_2019-11-24T121426_corr.hyspex
+│   │   ├── tom_cgs_02_16000_us_2x_2019-11-25T113013_corr.hdr
+│   │   ├── tom_cgs_02_16000_us_2x_2019-11-25T113013_corr.hyspex
+│   │   ├── tom_cgs_02_16000_us_2x_2019-11-26T094129_corr.hdr
+│   │   ├── tom_cgs_02_16000_us_2x_2019-11-26T094129_corr.hyspex
+│   │   ├── tom_cgs_02_16000_us_2x_2019-11-27T164336_corr.hdr
+│   │   ├── tom_cgs_02_16000_us_2x_2019-11-27T164336_corr.hyspex
+│   │   ├── tom_cgs_02_16000_us_2x_2019-11-28T155005_corr.hdr
+│   │   ├── tom_cgs_02_16000_us_2x_2019-11-28T155005_corr.hyspex
+│   │   ├── tom_cgs_02_16000_us_2x_2019-11-29T112123_corr.hdr
+│   │   └── tom_cgs_02_16000_us_2x_2019-11-29T112123_corr.hyspex
+│   ├── sample_3
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-24T121610_corr.hdr
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-24T121610_corr.hyspex
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-24T121742_corr.hdr
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-24T121742_corr.hyspex
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-25T113149_corr.hdr
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-25T113149_corr.hyspex
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-26T094312_corr.hdr
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-26T094312_corr.hyspex
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-27T164521_corr.hdr
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-27T164521_corr.hyspex
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-28T155146_corr.hdr
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-28T155146_corr.hyspex
+│   │   ├── tom_cgs_03_16000_us_2x_2019-11-29T112345_corr.hdr
+│   │   └── tom_cgs_03_16000_us_2x_2019-11-29T112345_corr.hyspex
+│   ├── sample_4
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-24T122020_corr.hdr
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-24T122020_corr.hyspex
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-24T122152_corr.hdr
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-24T122152_corr.hyspex
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-25T113407_corr.hdr
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-25T113407_corr.hyspex
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-25T113755_corr.hdr
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-25T113755_corr.hyspex
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-26T094513_corr.hdr
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-26T094513_corr.hyspex
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-27T164732_corr.hdr
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-27T164732_corr.hyspex
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-28T155424_corr.hdr
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-28T155424_corr.hyspex
+│   │   ├── tom_cgs_04_16000_us_2x_2019-11-29T112639_corr.hdr
+│   │   └── tom_cgs_04_16000_us_2x_2019-11-29T112639_corr.hyspex
+│   └── sample_5
+│       ├── tom_cgs_05_16000_us_2x_2019-11-24T122349_corr.hdr
+│       ├── tom_cgs_05_16000_us_2x_2019-11-24T122349_corr.hyspex
+│       ├── tom_cgs_05_16000_us_2x_2019-11-25T113554_corr.hdr
+│       ├── tom_cgs_05_16000_us_2x_2019-11-25T113554_corr.hyspex
+│       ├── tom_cgs_05_16000_us_2x_2019-11-26T094657_corr.hdr
+│       ├── tom_cgs_05_16000_us_2x_2019-11-26T094657_corr.hyspex
+│       ├── tom_cgs_05_16000_us_2x_2019-11-27T164924_corr.hdr
+│       ├── tom_cgs_05_16000_us_2x_2019-11-27T164924_corr.hyspex
+│       ├── tom_cgs_05_16000_us_2x_2019-11-28T155622_corr.hdr
+│       ├── tom_cgs_05_16000_us_2x_2019-11-28T155622_corr.hyspex
+│       ├── tom_cgs_05_16000_us_2x_2019-11-29T112906_corr.hdr
+│       ├── tom_cgs_05_16000_us_2x_2019-11-29T112906_corr.hyspex
+│       └── tom_cgs_05_16000_us_2x_2019-11-29T112906_corr.hyspex.enp
+├── diseased_group
+│   ├── sample_1
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-24T135629_corr.hdr
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-24T135629_corr.hyspex
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-25T122944_corr.hdr
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-25T122944_corr.hyspex
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-26T125645_corr.hdr
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-26T125645_corr.hyspex
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-27T174438_corr.hdr
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-27T174438_corr.hyspex
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-28T172239_corr.hdr
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-28T172239_corr.hyspex
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-29T115006_corr.hdr
+│   │   └── tom_dgs_01_16000_us_2x_2019-11-29T115006_corr.hyspex
+│   ├── sample_2
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-24T135834_corr.hdr
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-24T135834_corr.hyspex
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-25T123135_corr.hdr
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-25T123135_corr.hyspex
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-26T125826_corr.hdr
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-26T125826_corr.hyspex
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-27T174628_corr.hdr
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-27T174628_corr.hyspex
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-28T172447_corr.hdr
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-28T172447_corr.hyspex
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-29T115232_corr.hdr
+│   │   └── tom_dgs_02_16000_us_2x_2019-11-29T115232_corr.hyspex
+│   ├── sample_3
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-24T140022_corr.hdr
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-24T140022_corr.hyspex
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-25T123332_corr.hdr
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-25T123332_corr.hyspex
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-26T125959_corr.hdr
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-26T125959_corr.hyspex
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-27T174810_corr.hdr
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-27T174810_corr.hyspex
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-28T172641_corr.hdr
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-28T172641_corr.hyspex
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-29T115421_corr.hdr
+│   │   └── tom_dgs_03_16000_us_2x_2019-11-29T115421_corr.hyspex
+│   ├── sample_4
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-24T140224_corr.hdr
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-24T140224_corr.hyspex
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-25T123526_corr.hdr
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-25T123526_corr.hyspex
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-26T130206_corr.hdr
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-26T130206_corr.hyspex
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-27T175032_corr.hdr
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-27T175032_corr.hyspex
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-28T172850_corr.hdr
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-28T172850_corr.hyspex
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-29T115656_corr.hdr
+│   │   └── tom_dgs_04_16000_us_2x_2019-11-29T115656_corr.hyspex
+│   └── sample_5
+│       ├── tom_dgs_05_16000_us_2x_2019-11-24T140411_corr.hdr
+│       ├── tom_dgs_05_16000_us_2x_2019-11-24T140411_corr.hyspex
+│       ├── tom_dgs_05_16000_us_2x_2019-11-25T123709_corr.hdr
+│       ├── tom_dgs_05_16000_us_2x_2019-11-25T123709_corr.hyspex
+│       ├── tom_dgs_05_16000_us_2x_2019-11-25T123841_corr.hdr
+│       ├── tom_dgs_05_16000_us_2x_2019-11-25T123841_corr.hyspex
+│       ├── tom_dgs_05_16000_us_2x_2019-11-26T130343_corr.hdr
+│       ├── tom_dgs_05_16000_us_2x_2019-11-26T130343_corr.hyspex
+│       ├── tom_dgs_05_16000_us_2x_2019-11-27T175218_corr.hdr
+│       ├── tom_dgs_05_16000_us_2x_2019-11-27T175218_corr.hyspex
+│       ├── tom_dgs_05_16000_us_2x_2019-11-28T173033_corr.hdr
+│       ├── tom_dgs_05_16000_us_2x_2019-11-28T173033_corr.hyspex
+│       ├── tom_dgs_05_16000_us_2x_2019-11-29T115840_corr.hdr
+│       └── tom_dgs_05_16000_us_2x_2019-11-29T115840_corr.hyspex
+└── inoculated_group
+    ├── sample_1
+    │   ├── tom_igs_01_16000_us_2x_2019-11-24T124442_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-24T124442_corr.hyspex
+    │   ├── tom_igs_01_16000_us_2x_2019-11-24T124615_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-24T124615_corr.hyspex
+    │   ├── tom_igs_01_16000_us_2x_2019-11-25T120025_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-25T120025_corr.hyspex
+    │   ├── tom_igs_01_16000_us_2x_2019-11-25T120200_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-25T120200_corr.hyspex
+    │   ├── tom_igs_01_16000_us_2x_2019-11-26T101912_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-26T101912_corr.hyspex
+    │   ├── tom_igs_01_16000_us_2x_2019-11-26T102058_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-26T102058_corr.hyspex
+    │   ├── tom_igs_01_16000_us_2x_2019-11-27T171231_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-27T171231_corr.hyspex
+    │   ├── tom_igs_01_16000_us_2x_2019-11-27T171414_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-27T171414_corr.hyspex
+    │   ├── tom_igs_01_16000_us_2x_2019-11-28T161247_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-28T161247_corr.hyspex
+    │   ├── tom_igs_01_16000_us_2x_2019-11-28T161427_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-28T161427_corr.hyspex
+    │   ├── tom_igs_01_16000_us_2x_2019-11-28T161427_corr.hyspex.enp
+    │   ├── tom_igs_01_16000_us_2x_2019-11-29T124837_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-29T124837_corr.hyspex
+    │   ├── tom_igs_01_16000_us_2x_2019-11-29T125029_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-29T125029_corr.hyspex
+    │   ├── tom_igs_01_16000_us_2x_2019-11-29T125029_corr.hyspex.enp
+    │   ├── tom_igs_01_16000_us_2x_2019-11-29T125310_corr.hdr
+    │   ├── tom_igs_01_16000_us_2x_2019-11-29T125310_corr.hyspex
+    │   └── tom_igs_01_16000_us_2x_2019-11-29T125310_corr.hyspex.enp
+    ├── sample_2
+    │   ├── tom_igs_02_16000_us_2x_2019-11-24T124811_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-24T124811_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-24T124948_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-24T124948_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-25T120353_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-25T120353_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-25T120527_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-25T120527_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-25T120527_corr.hyspex.enp
+    │   ├── tom_igs_02_16000_us_2x_2019-11-26T102241_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-26T102241_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-26T102417_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-26T102417_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-27T171558_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-27T171558_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-27T171729_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-27T171729_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-28T161629_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-28T161629_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-28T161855_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-28T161855_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-28T161855_corr.hyspex.enp
+    │   ├── tom_igs_02_16000_us_2x_2019-11-28T162327_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-28T162327_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-28T162327_corr.hyspex.enp
+    │   ├── tom_igs_02_16000_us_2x_2019-11-29T125520_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-29T125520_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-29T125712_corr.hdr
+    │   ├── tom_igs_02_16000_us_2x_2019-11-29T125712_corr.hyspex
+    │   ├── tom_igs_02_16000_us_2x_2019-11-29T125712_corr.hyspex.enp
+    │   ├── tom_igs_02_16000_us_2x_2019-11-29T125941_corr.hdr
+    │   └── tom_igs_02_16000_us_2x_2019-11-29T125941_corr.hyspex
+    ├── sample_3
+    │   ├── tom_igs_03_16000_us_2x_2019-11-24T125133_corr.hdr
+    │   ├── tom_igs_03_16000_us_2x_2019-11-24T125133_corr.hyspex
+    │   ├── tom_igs_03_16000_us_2x_2019-11-24T125321_corr.hdr
+    │   ├── tom_igs_03_16000_us_2x_2019-11-24T125321_corr.hyspex
+    │   ├── tom_igs_03_16000_us_2x_2019-11-25T120704_corr.hdr
+    │   ├── tom_igs_03_16000_us_2x_2019-11-25T120704_corr.hyspex
+    │   ├── tom_igs_03_16000_us_2x_2019-11-25T120841_corr.hdr
+    │   ├── tom_igs_03_16000_us_2x_2019-11-25T120841_corr.hyspex
+    │   ├── tom_igs_03_16000_us_2x_2019-11-26T102614_corr.hdr
+    │   ├── tom_igs_03_16000_us_2x_2019-11-26T102614_corr.hyspex
+    │   ├── tom_igs_03_16000_us_2x_2019-11-26T102758_corr.hdr
+    │   ├── tom_igs_03_16000_us_2x_2019-11-26T102758_corr.hyspex
+    │   ├── tom_igs_03_16000_us_2x_2019-11-27T171931_corr.hdr
+    │   ├── tom_igs_03_16000_us_2x_2019-11-27T171931_corr.hyspex
+    │   ├── tom_igs_03_16000_us_2x_2019-11-27T171931_corr.hyspex.enp
+    │   ├── tom_igs_03_16000_us_2x_2019-11-27T172120_corr.hdr
+    │   ├── tom_igs_03_16000_us_2x_2019-11-27T172120_corr.hyspex
+    │   ├── tom_igs_03_16000_us_2x_2019-11-28T162717_corr.hdr
+    │   ├── tom_igs_03_16000_us_2x_2019-11-28T162717_corr.hyspex
+    │   ├── tom_igs_03_16000_us_2x_2019-11-28T162717_corr.hyspex.enp
+    │   ├── tom_igs_03_16000_us_2x_2019-11-28T163154_corr.hdr
+    │   ├── tom_igs_03_16000_us_2x_2019-11-28T163154_corr.hyspex
+    │   ├── tom_igs_03_16000_us_2x_2019-11-28T163154_corr.hyspex.enp
+    │   ├── tom_igs_03_16000_us_2x_2019-11-29T130120_corr.hdr
+    │   ├── tom_igs_03_16000_us_2x_2019-11-29T130120_corr.hyspex
+    │   ├── tom_igs_03_16000_us_2x_2019-11-29T130251_corr.hdr
+    │   └── tom_igs_03_16000_us_2x_2019-11-29T130251_corr.hyspex
+    ├── sample_4
+    │   ├── tom_igs_04_16000_us_2x_2019-11-24T125536_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-24T125536_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-24T125735_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-24T125735_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-24T125917_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-24T125917_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-25T121049_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-25T121049_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-25T121049_corr.hyspex.enp
+    │   ├── tom_igs_04_16000_us_2x_2019-11-25T121227_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-25T121227_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-25T121227_corr.hyspex.enp
+    │   ├── tom_igs_04_16000_us_2x_2019-11-25T121454_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-25T121454_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-26T103014_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-26T103014_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-26T103148_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-26T103148_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-27T172350_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-27T172350_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-27T172350_corr.hyspex.enp
+    │   ├── tom_igs_04_16000_us_2x_2019-11-27T172536_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-27T172536_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-28T163542_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-28T163542_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-28T163542_corr.hyspex.enp
+    │   ├── tom_igs_04_16000_us_2x_2019-11-28T163744_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-28T163744_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-29T130512_corr.hdr
+    │   ├── tom_igs_04_16000_us_2x_2019-11-29T130512_corr.hyspex
+    │   ├── tom_igs_04_16000_us_2x_2019-11-29T130655_corr.hdr
+    │   └── tom_igs_04_16000_us_2x_2019-11-29T130655_corr.hyspex
+    └── sample_5
+        ├── tom_igs_05_16000_us_2x_2019-11-24T130128_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-24T130128_corr.hyspex
+        ├── tom_igs_05_16000_us_2x_2019-11-24T130311_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-24T130311_corr.hyspex
+        ├── tom_igs_05_16000_us_2x_2019-11-24T130445_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-24T130445_corr.hyspex
+        ├── tom_igs_05_16000_us_2x_2019-11-25T121641_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-25T121641_corr.hyspex
+        ├── tom_igs_05_16000_us_2x_2019-11-25T121820_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-25T121820_corr.hyspex
+        ├── tom_igs_05_16000_us_2x_2019-11-26T103339_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-26T103339_corr.hyspex
+        ├── tom_igs_05_16000_us_2x_2019-11-26T103517_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-26T103517_corr.hyspex
+        ├── tom_igs_05_16000_us_2x_2019-11-27T172737_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-27T172737_corr.hyspex
+        ├── tom_igs_05_16000_us_2x_2019-11-27T172920_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-27T172920_corr.hyspex
+        ├── tom_igs_05_16000_us_2x_2019-11-28T163929_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-28T163929_corr.hyspex
+        ├── tom_igs_05_16000_us_2x_2019-11-28T164106_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-28T164106_corr.hyspex
+        ├── tom_igs_05_16000_us_2x_2019-11-29T130831_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-29T130831_corr.hyspex
+        ├── tom_igs_05_16000_us_2x_2019-11-29T131014_corr.hdr
+        ├── tom_igs_05_16000_us_2x_2019-11-29T131014_corr.hyspex
+        └── tom_igs_05_16000_us_2x_2019-11-29T131014_corr.hyspex.enp
+
+18 directories, 278 files
+
+################################################################################
+Grupo seleccionado para hacer el trabajo:
+
+diseased_group
+                    Total objects: 62
+                    Total size: 56.290 GBytes (60440911172 Bytes)
+                    sample_1
+                      Total objects: 12
+                      Total size: 10.895 GBytes (11698240872 Bytes)
+                    sample_2
+                      Total objects: 12
+                      Total size: 10.895 GBytes (11698240872 Bytes)
+                    sample_3
+                      Total objects: 12
+                      Total size: 10.895 GBytes (11698240872 Bytes)
+                    sample_4
+                      Total objects: 12
+                      Total size: 10.895 GBytes (11698240872 Bytes)
+                    sample_5
+                      Total objects: 14
+                      Total size: 12.711 GBytes (13647947684 Bytes)
+                      
+├── diseased_group
+│   ├── sample_1
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-24T135629_corr.hdr
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-24T135629_corr.hyspex
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-25T122944_corr.hdr
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-25T122944_corr.hyspex
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-26T125645_corr.hdr
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-26T125645_corr.hyspex
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-27T174438_corr.hdr
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-27T174438_corr.hyspex
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-28T172239_corr.hdr
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-28T172239_corr.hyspex
+│   │   ├── tom_dgs_01_16000_us_2x_2019-11-29T115006_corr.hdr
+│   │   └── tom_dgs_01_16000_us_2x_2019-11-29T115006_corr.hyspex
+│   ├── sample_2
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-24T135834_corr.hdr
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-24T135834_corr.hyspex
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-25T123135_corr.hdr
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-25T123135_corr.hyspex
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-26T125826_corr.hdr
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-26T125826_corr.hyspex
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-27T174628_corr.hdr
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-27T174628_corr.hyspex
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-28T172447_corr.hdr
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-28T172447_corr.hyspex
+│   │   ├── tom_dgs_02_16000_us_2x_2019-11-29T115232_corr.hdr
+│   │   └── tom_dgs_02_16000_us_2x_2019-11-29T115232_corr.hyspex
+│   ├── sample_3
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-24T140022_corr.hdr
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-24T140022_corr.hyspex
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-25T123332_corr.hdr
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-25T123332_corr.hyspex
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-26T125959_corr.hdr
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-26T125959_corr.hyspex
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-27T174810_corr.hdr
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-27T174810_corr.hyspex
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-28T172641_corr.hdr
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-28T172641_corr.hyspex
+│   │   ├── tom_dgs_03_16000_us_2x_2019-11-29T115421_corr.hdr
+│   │   └── tom_dgs_03_16000_us_2x_2019-11-29T115421_corr.hyspex
+│   ├── sample_4
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-24T140224_corr.hdr
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-24T140224_corr.hyspex
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-25T123526_corr.hdr
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-25T123526_corr.hyspex
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-26T130206_corr.hdr
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-26T130206_corr.hyspex
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-27T175032_corr.hdr
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-27T175032_corr.hyspex
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-28T172850_corr.hdr
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-28T172850_corr.hyspex
+│   │   ├── tom_dgs_04_16000_us_2x_2019-11-29T115656_corr.hdr
+│   │   └── tom_dgs_04_16000_us_2x_2019-11-29T115656_corr.hyspex
+│   └── sample_5
+│       ├── tom_dgs_05_16000_us_2x_2019-11-24T140411_corr.hdr
+│       ├── tom_dgs_05_16000_us_2x_2019-11-24T140411_corr.hyspex
+│       ├── tom_dgs_05_16000_us_2x_2019-11-25T123709_corr.hdr
+│       ├── tom_dgs_05_16000_us_2x_2019-11-25T123709_corr.hyspex
+│       ├── tom_dgs_05_16000_us_2x_2019-11-25T123841_corr.hdr
+│       ├── tom_dgs_05_16000_us_2x_2019-11-25T123841_corr.hyspex
+│       ├── tom_dgs_05_16000_us_2x_2019-11-26T130343_corr.hdr
+│       ├── tom_dgs_05_16000_us_2x_2019-11-26T130343_corr.hyspex
+│       ├── tom_dgs_05_16000_us_2x_2019-11-27T175218_corr.hdr
+│       ├── tom_dgs_05_16000_us_2x_2019-11-27T175218_corr.hyspex
+│       ├── tom_dgs_05_16000_us_2x_2019-11-28T173033_corr.hdr
+│       ├── tom_dgs_05_16000_us_2x_2019-11-28T173033_corr.hyspex
+│       ├── tom_dgs_05_16000_us_2x_2019-11-29T115840_corr.hdr
+│       └── tom_dgs_05_16000_us_2x_2019-11-29T115840_corr.hyspex
+
+################################################################################

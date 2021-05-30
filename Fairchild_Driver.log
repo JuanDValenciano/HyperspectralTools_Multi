@@ -1,0 +1,407 @@
+JuanD Valenciano
+  Fairchild->
+Total objects: 323
+Total size: 276.636 GBytes (297035782271 Bytes)
+          -1 2020-02-03 08:39:13        -1 control_group
+          -1 2020-02-03 08:39:13        -1 diseased_group
+          -1 2020-02-03 08:39:13        -1 inoculated_group
+
+control_group
+                    18 directories, 323 files
+                    Total objects: 86
+                    Total size: 71.038 GBytes (76276182683 Bytes)
+                    sample_1
+                      Total objects: 19
+                      Total size: 13.705 GBytes (14715234395 Bytes)
+                    sample_2
+                      Total objects: 16
+                      Total size: 13.620 GBytes (14624161540 Bytes)
+                    sample_3
+                      Total objects: 15
+                      Total size: 13.312 GBytes (14294184363 Bytes)
+                    sample_4
+                      Total objects: 21
+                      Total size: 17.611 GBytes (18909606518 Bytes)
+                    sample_5
+                      Total objects: 15
+                      Total size: 12.790 GBytes (13732995867 Bytes)
+diseased_group
+                    Total objects: 66
+                    Total size: 58.764 GBytes (63097413643 Bytes)
+                    sample_1
+                      Total objects: 14
+                      Total size: 12.711 GBytes (13647947684 Bytes)
+                    sample_2
+                      Total objects: 15
+                      Total size: 13.312 GBytes (14294181704 Bytes)
+                    sample_3
+                      Total objects: 12
+                      Total size: 10.895 GBytes (11698240872 Bytes)
+                    sample_4
+                      Total objects: 13
+                      Total size: 10.951 GBytes (11758802511 Bytes)
+                    sample_5
+                      Total objects: 12
+                      Total size: 10.895 GBytes (11698240872 Bytes)
+inoculated_group
+                    Total objects: 171
+                    Total size: 146.834 GBytes (157662185945 Bytes)
+                    sample_1
+                      Total objects: 46
+                      Total size: 38.485 GBytes (41323342542 Bytes)
+                    sample_2
+                      Total objects: 33
+                      Total size: 28.660 GBytes (30773173801 Bytes)
+                    sample_3
+                      Total objects: 32
+                      Total size: 27.124 GBytes (29123712867 Bytes)
+                    sample_4
+                      Total objects: 30
+                      Total size: 26.625 GBytes (28588112457 Bytes)
+                    sample_5
+                      Total objects: 30
+                      Total size: 25.941 GBytes (27853844278 Bytes)
+
+
+/
+├── control_group
+│   ├── sample_1
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-24T115214_corr.hdr
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-24T115214_corr.hyspex
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-24T115214_corr.hyspex.enp
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-24T115347_corr.hdr
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-24T115347_corr.hyspex
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-24T115347_corr.hyspex.enp
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-25T111630_corr.hdr
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-25T111630_corr.hyspex
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-25T111630_corr.hyspex.enp
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-26T092121_corr.hdr
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-26T092121_corr.hyspex
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-26T092152_corr.hdr
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-26T092152_corr.hyspex
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-27T163048_corr.hdr
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-27T163048_corr.hyspex
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-28T155841_corr.hdr
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-28T155841_corr.hyspex
+│   │   ├── fai_cgs_01_16000_us_2x_2019-11-29T113339_corr.hdr
+│   │   └── fai_cgs_01_16000_us_2x_2019-11-29T113339_corr.hyspex
+│   ├── sample_2
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-24T115623_corr.hdr
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-24T115623_corr.hyspex
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-24T115623_corr.hyspex.enp
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-25T111823_corr.hdr
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-25T111823_corr.hyspex
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-26T092555_corr.hdr
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-26T092555_corr.hyspex
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-26T092726_corr.hdr
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-26T092726_corr.hyspex
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-27T163240_corr.hdr
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-27T163240_corr.hyspex
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-28T160020_corr.hdr
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-28T160020_corr.hyspex
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-29T113544_corr.hdr
+│   │   ├── fai_cgs_02_16000_us_2x_2019-11-29T113544_corr.hyspex
+│   │   └── fai_cgs_02_16000_us_2x_2019-11-29T113544_corr.hyspex.enp
+│   ├── sample_3
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-24T115920_corr.hdr
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-24T115920_corr.hyspex
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-24T115920_corr.hyspex.enp
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-25T112005_corr.hdr
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-25T112005_corr.hyspex
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-26T092933_corr.hdr
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-26T092933_corr.hyspex
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-27T163505_corr.hdr
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-27T163505_corr.hyspex
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-28T160207_corr.hdr
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-28T160207_corr.hyspex
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-28T160713_corr.hdr
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-28T160713_corr.hyspex
+│   │   ├── fai_cgs_03_16000_us_2x_2019-11-29T113805_corr.hdr
+│   │   └── fai_cgs_03_16000_us_2x_2019-11-29T113805_corr.hyspex
+│   ├── sample_4
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-24T120201_corr.hdr
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-24T120201_corr.hyspex
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-24T120201_corr.hyspex.enp
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-24T120922_corr.hdr
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-24T120922_corr.hyspex
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-25T112237_corr.hdr
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-25T112237_corr.hyspex
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-25T112237_corr.hyspex.enp
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-25T112429_corr.hdr
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-25T112429_corr.hyspex
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-26T093225_corr.hdr
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-26T093225_corr.hyspex
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-27T163725_corr.hdr
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-27T163725_corr.hyspex
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-28T160445_corr.hdr
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-28T160445_corr.hyspex
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-29T114151_corr.hdr
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-29T114151_corr.hyspex
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-29T114151_corr.hyspex.enp
+│   │   ├── fai_cgs_04_16000_us_2x_2019-11-29T114356_corr.hdr
+│   │   └── fai_cgs_04_16000_us_2x_2019-11-29T114356_corr.hyspex
+│   └── sample_5
+│       ├── fai_cgs_05_16000_us_2x_2019-11-24T120523_corr.hdr
+│       ├── fai_cgs_05_16000_us_2x_2019-11-24T120523_corr.hyspex
+│       ├── fai_cgs_05_16000_us_2x_2019-11-24T120523_corr.hyspex.enp
+│       ├── fai_cgs_05_16000_us_2x_2019-11-24T120729_corr.hdr
+│       ├── fai_cgs_05_16000_us_2x_2019-11-24T120729_corr.hyspex
+│       ├── fai_cgs_05_16000_us_2x_2019-11-25T112633_corr.hdr
+│       ├── fai_cgs_05_16000_us_2x_2019-11-25T112633_corr.hyspex
+│       ├── fai_cgs_05_16000_us_2x_2019-11-26T093455_corr.hdr
+│       ├── fai_cgs_05_16000_us_2x_2019-11-26T093455_corr.hyspex
+│       ├── fai_cgs_05_16000_us_2x_2019-11-27T163915_corr.hdr
+│       ├── fai_cgs_05_16000_us_2x_2019-11-27T163915_corr.hyspex
+│       ├── fai_cgs_05_16000_us_2x_2019-11-28T160911_corr.hdr
+│       ├── fai_cgs_05_16000_us_2x_2019-11-28T160911_corr.hyspex
+│       ├── fai_cgs_05_16000_us_2x_2019-11-29T114547_corr.hdr
+│       └── fai_cgs_05_16000_us_2x_2019-11-29T114547_corr.hyspex
+├── diseased_group
+│   ├── sample_1
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-24T140759_corr.hdr
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-24T140759_corr.hyspex
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-25T122022_corr.hdr
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-25T122022_corr.hyspex
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-26T124813_corr.hdr
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-26T124813_corr.hyspex
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-27T173447_corr.hdr
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-27T173447_corr.hyspex
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-28T173301_corr.hdr
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-28T173301_corr.hyspex
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-28T173434_corr.hdr
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-28T173434_corr.hyspex
+│   │   ├── fai_dgs_01_16000_us_2x_2019-11-29T120125_corr.hdr
+│   │   └── fai_dgs_01_16000_us_2x_2019-11-29T120125_corr.hyspex
+│   ├── sample_2
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-24T140945_corr.hdr
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-24T140945_corr.hyspex
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-24T140945_corr.hyspex.enp
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-24T141201_corr.hdr
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-24T141201_corr.hyspex
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-25T122219_corr.hdr
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-25T122219_corr.hyspex
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-26T124953_corr.hdr
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-26T124953_corr.hyspex
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-27T173636_corr.hdr
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-27T173636_corr.hyspex
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-28T173726_corr.hdr
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-28T173726_corr.hyspex
+│   │   ├── fai_dgs_02_16000_us_2x_2019-11-29T120412_corr.hdr
+│   │   └── fai_dgs_02_16000_us_2x_2019-11-29T120412_corr.hyspex
+│   ├── sample_3
+│   │   ├── fai_dgs_03_16000_us_2x_2019-11-24T141347_corr.hdr
+│   │   ├── fai_dgs_03_16000_us_2x_2019-11-24T141347_corr.hyspex
+│   │   ├── fai_dgs_03_16000_us_2x_2019-11-25T122405_corr.hdr
+│   │   ├── fai_dgs_03_16000_us_2x_2019-11-25T122405_corr.hyspex
+│   │   ├── fai_dgs_03_16000_us_2x_2019-11-26T125128_corr.hdr
+│   │   ├── fai_dgs_03_16000_us_2x_2019-11-26T125128_corr.hyspex
+│   │   ├── fai_dgs_03_16000_us_2x_2019-11-27T173820_corr.hdr
+│   │   ├── fai_dgs_03_16000_us_2x_2019-11-27T173820_corr.hyspex
+│   │   ├── fai_dgs_03_16000_us_2x_2019-11-28T174210_corr.hdr
+│   │   ├── fai_dgs_03_16000_us_2x_2019-11-28T174210_corr.hyspex
+│   │   ├── fai_dgs_03_16000_us_2x_2019-11-29T120639_corr.hdr
+│   │   └── fai_dgs_03_16000_us_2x_2019-11-29T120639_corr.hyspex
+│   ├── sample_4
+│   │   ├── fai_dgs_04_16000_us_2x_2019-11-24T141550_corr.hdr
+│   │   ├── fai_dgs_04_16000_us_2x_2019-11-24T141550_corr.hyspex
+│   │   ├── fai_dgs_04_16000_us_2x_2019-11-24T141550_corr.hyspex.enp
+│   │   ├── fai_dgs_04_16000_us_2x_2019-11-25T122604_corr.hdr
+│   │   ├── fai_dgs_04_16000_us_2x_2019-11-25T122604_corr.hyspex
+│   │   ├── fai_dgs_04_16000_us_2x_2019-11-26T125315_corr.hdr
+│   │   ├── fai_dgs_04_16000_us_2x_2019-11-26T125315_corr.hyspex
+│   │   ├── fai_dgs_04_16000_us_2x_2019-11-27T174036_corr.hdr
+│   │   ├── fai_dgs_04_16000_us_2x_2019-11-27T174036_corr.hyspex
+│   │   ├── fai_dgs_04_16000_us_2x_2019-11-28T174405_corr.hdr
+│   │   ├── fai_dgs_04_16000_us_2x_2019-11-28T174405_corr.hyspex
+│   │   ├── fai_dgs_04_16000_us_2x_2019-11-29T120851_corr.hdr
+│   │   └── fai_dgs_04_16000_us_2x_2019-11-29T120851_corr.hyspex
+│   └── sample_5
+│       ├── fai_dgs_05_16000_us_2x_2019-11-24T141818_corr.hdr
+│       ├── fai_dgs_05_16000_us_2x_2019-11-24T141818_corr.hyspex
+│       ├── fai_dgs_05_16000_us_2x_2019-11-25T122746_corr.hdr
+│       ├── fai_dgs_05_16000_us_2x_2019-11-25T122746_corr.hyspex
+│       ├── fai_dgs_05_16000_us_2x_2019-11-26T125450_corr.hdr
+│       ├── fai_dgs_05_16000_us_2x_2019-11-26T125450_corr.hyspex
+│       ├── fai_dgs_05_16000_us_2x_2019-11-27T174235_corr.hdr
+│       ├── fai_dgs_05_16000_us_2x_2019-11-27T174235_corr.hyspex
+│       ├── fai_dgs_05_16000_us_2x_2019-11-28T174601_corr.hdr
+│       ├── fai_dgs_05_16000_us_2x_2019-11-28T174601_corr.hyspex
+│       ├── fai_dgs_05_16000_us_2x_2019-11-29T121044_corr.hdr
+│       └── fai_dgs_05_16000_us_2x_2019-11-29T121044_corr.hyspex
+└── inoculated_group
+    ├── sample_1
+    │   ├── fai_igs_01_16000_us_2x_2019-11-24T122649_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-24T122649_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-24T122851_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-24T122851_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-25T113956_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-25T113956_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-25T114147_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-25T114147_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-26T094907_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-26T094907_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-26T094907_corr.hyspex.enp
+    │   ├── fai_igs_01_16000_us_2x_2019-11-26T095052_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-26T095052_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-26T095052_corr.hyspex.enp
+    │   ├── fai_igs_01_16000_us_2x_2019-11-26T100733_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-26T100733_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-26T100936_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-26T100936_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-26T100936_corr.hyspex.enp
+    │   ├── fai_igs_01_16000_us_2x_2019-11-27T165220_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-27T165220_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-27T165400_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-27T165400_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-28T164509_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-28T164509_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-28T164509_corr.hyspex.enp
+    │   ├── fai_igs_01_16000_us_2x_2019-11-28T164750_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-28T164750_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-28T164750_corr.hyspex.enp
+    │   ├── fai_igs_01_16000_us_2x_2019-11-28T165153_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-28T165153_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-28T165153_corr.hyspex.enp
+    │   ├── fai_igs_01_16000_us_2x_2019-11-28T165327_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-28T165327_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-28T165327_corr.hyspex.enp
+    │   ├── fai_igs_01_16000_us_2x_2019-11-29T121419_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-29T121419_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-29T121609_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-29T121609_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-29T121609_corr.hyspex.enp
+    │   ├── fai_igs_01_16000_us_2x_2019-11-29T121807_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-29T121807_corr.hyspex
+    │   ├── fai_igs_01_16000_us_2x_2019-11-29T121807_corr.hyspex.enp
+    │   ├── fai_igs_01_16000_us_2x_2019-11-29T122028_corr.hdr
+    │   ├── fai_igs_01_16000_us_2x_2019-11-29T122028_corr.hyspex
+    │   └── fai_igs_01_16000_us_2x_2019-11-29T122028_corr.hyspex.enp
+    ├── sample_2
+    │   ├── fai_igs_02_16000_us_2x_2019-11-24T123048_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-24T123048_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-24T123228_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-24T123228_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-25T114353_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-25T114353_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-25T114526_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-25T114526_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-26T095246_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-26T095246_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-26T095521_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-26T095521_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-26T100408_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-26T100408_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-26T100551_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-26T100551_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-27T165553_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-27T165553_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-27T165553_corr.hyspex.enp
+    │   ├── fai_igs_02_16000_us_2x_2019-11-27T165733_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-27T165733_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-27T165905_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-27T165905_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-28T165806_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-28T165806_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-28T165947_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-28T165947_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-29T122215_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-29T122215_corr.hyspex
+    │   ├── fai_igs_02_16000_us_2x_2019-11-29T122215_corr.hyspex.enp
+    │   ├── fai_igs_02_16000_us_2x_2019-11-29T122421_corr.hdr
+    │   ├── fai_igs_02_16000_us_2x_2019-11-29T122421_corr.hyspex
+    │   └── fai_igs_02_16000_us_2x_2019-11-29T122421_corr.hyspex.enp
+    ├── sample_3
+    │   ├── fai_igs_03_16000_us_2x_2019-11-24T123406_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-24T123406_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-24T123558_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-24T123558_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-25T114710_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-25T114710_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-25T114844_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-25T114844_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-26T095727_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-26T095727_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-26T095727_corr.hyspex.enp
+    │   ├── fai_igs_03_16000_us_2x_2019-11-26T095953_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-26T095953_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-26T095953_corr.hyspex.enp
+    │   ├── fai_igs_03_16000_us_2x_2019-11-26T100217_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-26T100217_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-27T170037_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-27T170037_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-27T170226_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-27T170226_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-28T170203_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-28T170203_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-28T170407_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-28T170407_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-28T170407_corr.hyspex.enp
+    │   ├── fai_igs_03_16000_us_2x_2019-11-29T122709_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-29T122709_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-29T122906_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-29T122906_corr.hyspex
+    │   ├── fai_igs_03_16000_us_2x_2019-11-29T123129_corr.hdr
+    │   ├── fai_igs_03_16000_us_2x_2019-11-29T123129_corr.hyspex
+    │   └── fai_igs_03_16000_us_2x_2019-11-29T123129_corr.hyspex.enp
+    ├── sample_4
+    │   ├── fai_igs_04_16000_us_2x_2019-11-24T123743_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-24T123743_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-24T123929_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-24T123929_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-25T115111_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-25T115111_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-25T115252_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-25T115252_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-26T101136_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-26T101136_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-26T101328_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-26T101328_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-27T170435_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-27T170435_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-27T170623_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-27T170623_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-28T170739_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-28T170739_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-28T170921_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-28T170921_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-28T171056_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-28T171056_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-28T171056_corr.hyspex.enp
+    │   ├── fai_igs_04_16000_us_2x_2019-11-28T171411_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-28T171411_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-28T171411_corr.hyspex.enp
+    │   ├── fai_igs_04_16000_us_2x_2019-11-29T124434_corr.hdr
+    │   ├── fai_igs_04_16000_us_2x_2019-11-29T124434_corr.hyspex
+    │   ├── fai_igs_04_16000_us_2x_2019-11-29T124619_corr.hdr
+    │   └── fai_igs_04_16000_us_2x_2019-11-29T124619_corr.hyspex
+    └── sample_5
+        ├── fai_igs_05_16000_us_2x_2019-11-24T124110_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-24T124110_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-24T124248_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-24T124248_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-25T115506_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-25T115506_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-25T115659_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-25T115659_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-25T115832_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-25T115832_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-26T101517_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-26T101517_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-26T101649_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-26T101649_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-27T170821_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-27T170821_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-27T170821_corr.hyspex.enp
+        ├── fai_igs_05_16000_us_2x_2019-11-27T171009_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-27T171009_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-28T171645_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-28T171645_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-28T171834_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-28T171834_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-29T123619_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-29T123619_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-29T123901_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-29T123901_corr.hyspex
+        ├── fai_igs_05_16000_us_2x_2019-11-29T124036_corr.hdr
+        ├── fai_igs_05_16000_us_2x_2019-11-29T124036_corr.hyspex
+        └── fai_igs_05_16000_us_2x_2019-11-29T124036_corr.hyspex.enp
