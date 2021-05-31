@@ -353,11 +353,11 @@ if(_MOD == "RAD"):
             if(_ALG == "MEAN"):
                 Data2Save = radiometricResponseNumpy( ArrayCalPoint, DataRecv[:,:,:], BLACK_REF_IMG[:,:,:], SpectralReference, IntegrationTime, 1)
                 envi.save_image( _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + '_RAD_MEAN_'+ str(_MIN) + '_' + str(_MAX) + '.hdr', Data2Save.astype(float), metadata = static_hdr, force=True, interleave='bil', ext='.hyspex')
-                print('OK and save data onDisk ', entry2.strip('hdr').strip('.').lstrip())
+                print('OK and save data onDisk ')
             elif(_ALG == "MEDIAN"):
                 Data2Save = radiometricResponseNumpyMEDIAN( ArrayCalPoint, DataRecv[:,:,:], BLACK_REF_IMG[:,:,:], SpectralReference, IntegrationTime, 1)
                 envi.save_image( _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + '_RAD_MEDIAN_'+ str(_MIN) + '_' + str(_MAX) + '.hdr', Data2Save.astype(float), metadata = static_hdr, force=True, interleave='bil', ext='.hyspex')
-                print('OK and save data onDisk ', entry2.strip('hdr').strip('.').lstrip())
+                print('OK and save data onDisk ')
             else:
                 print("No define. Posible ERROR.!!!!!!!!!!!!!")
         else:
