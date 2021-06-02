@@ -134,17 +134,17 @@ def radiometricResponseNumpy( ArrayPoint, DataRef, BlackRef, SpectralRef, Integr
     N_ROWS = 1
     N_COLS = 1
     #NW_WhiteReferenceArray = torch.empty((N_ROWS, N_COLS, N_BANDS))
-    NewRadianceCamera = np.zeros((N_ROWS, N_COLS, N_BANDS))
+    NewRadianceCamera = np.zeros((N_ROWS, N_COLS, N_BANDS), np.float32)
     #for col in range(N_COLS):
     #    NewRadianceCamera[0, col, :] = (WhitedataTest2[:] - BlackRef[ 0, 0, :]) #/(SpectralRef[:,1]*IntegrationTime)    
     #NewRadianceCamera[0, 0, :] = np.clip( (WhitedataTest2[:] - BlackRef[ 0, 0, :])/(SpectralRef[:,1]*IntegrationTime), min=0)
-    NewRadianceCamera[0, 0, :] = np.clip((((np.clip( WhitedataTest2[:] - (BlackRef[ 0, 0, :]).astype(float), a_min=0, a_max=None)))/(SpectralRef[:,1]*IntegrationTime)), a_min=0, a_max=None) #Bug negative number!
+    NewRadianceCamera[0, 0, :] = np.clip((((np.clip( WhitedataTest2[:].astype(float) - (BlackRef[ 0, 0, :]).astype(float), a_min=0, a_max=None)))/((SpectralRef[:,1]).astype(float)*IntegrationTime)), a_min=0, a_max=None) #Bug negative number!
     #NewRadianceCamera = NewRadianceCamera.clip(min=0)
     #NewRadianceCamera[0, 0, :] = (NewRadianceCamera[0, 0, :])/(SpectralRef[:,1]*IntegrationTime)
     #NewRadianceCamera = NewRadianceCamera.clip(min=0)
     
     N_ROWS, N_COLS, N_BANDS = DataRef.shape
-    dataTestCalibrada = (np.zeros((N_ROWS, N_COLS, N_BANDS))).astype(float)
+    dataTestCalibrada = (np.zeros((N_ROWS, N_COLS, N_BANDS)), np.float32)
     '''
     for row in range(N_ROWS):
         for col in range(N_COLS):
@@ -227,21 +227,26 @@ def radiometricResponseNumpyMEDIAN( ArrayPoint, DataRef, BlackRef, SpectralRef, 
     N_ROWS = 1
     N_COLS = 1
     #NW_WhiteReferenceArray = torch.empty((N_ROWS, N_COLS, N_BANDS))
-    NewRadianceCamera = np.zeros((N_ROWS, N_COLS, N_BANDS))
+    #NW_WhiteReferenceArray = torch.empty((N_ROWS, N_COLS, N_BANDS))
+    NewRadianceCamera = np.zeros((N_ROWS, N_COLS, N_BANDS), np.float32)
     #for col in range(N_COLS):
     #    NewRadianceCamera[0, col, :] = (WhitedataTest2[:] - BlackRef[ 0, 0, :]) #/(SpectralRef[:,1]*IntegrationTime)    
     #NewRadianceCamera[0, 0, :] = np.clip( (WhitedataTest2[:] - BlackRef[ 0, 0, :])/(SpectralRef[:,1]*IntegrationTime), min=0)
-    NewRadianceCamera[0, 0, :] = np.clip(( ((np.clip(WhitedataTest2[:] - (BlackRef[ 0, 0, :]).astype(float), a_min=0, a_max=None)))/(SpectralRef[:,1]*IntegrationTime)), a_min=0, a_max=None) 
+    NewRadianceCamera[0, 0, :] = np.clip((((np.clip( WhitedataTest2[:].astype(float) - (BlackRef[ 0, 0, :]).astype(float), a_min=0, a_max=None)))/((SpectralRef[:,1]).astype(float)*IntegrationTime)), a_min=0, a_max=None) #Bug negative number!
     #NewRadianceCamera = NewRadianceCamera.clip(min=0)
     #NewRadianceCamera[0, 0, :] = (NewRadianceCamera[0, 0, :])/(SpectralRef[:,1]*IntegrationTime)
     #NewRadianceCamera = NewRadianceCamera.clip(min=0)
     
     N_ROWS, N_COLS, N_BANDS = DataRef.shape
-    dataTestCalibrada = np.zeros((N_ROWS, N_COLS, N_BANDS)).astype(float)
-    
+    dataTestCalibrada = np.zeros((N_ROWS, N_COLS, N_BANDS), np.float32)
+    '''
+    for row in range(N_ROWS):
+        for col in range(N_COLS):
+            dataTestCalibrada[row,col,:] = np.clip(  np.clip((DataRef[row,col,:]).astype(float) - (BlackRef[0,0,:]).astype(float), a_min=0, a_max=None)   /(NewRadianceCamera[0,0,:]*IntegrationTime), a_min=0, a_max=None)
+    '''
     for row in tqdm(range(N_ROWS)):
         for col in range(N_COLS):
-            dataTestCalibrada[row,col,:] = np.clip( np.clip((DataRef[row,col,:]).astype(float) - (BlackRef[0,0,:]).astype(float), a_min=0, a_max=None)/(NewRadianceCamera[0,0,:]*IntegrationTime), a_min=0, a_max=None)
+            dataTestCalibrada[row,col,:] = np.clip(  (np.clip((DataRef[row,col,:]).astype(float) - (BlackRef[0,0,:]).astype(float), a_min=0, a_max=None)/(NewRadianceCamera[0,0,:]*IntegrationTime)), a_min=0, a_max=None)
     
     #dataTestCalibrada = dataTestCalibrada.clip(min=0)
     #print(WhitedataTest.shape)
@@ -258,6 +263,12 @@ def radiometricResponseNumpyMEDIAN( ArrayPoint, DataRef, BlackRef, SpectralRef, 
     del WhitedataTest2_Last
     del WhitedataTest2
     return (dataTestCalibrada)
+
+def SNR(A,B):
+  A_p = np.sum(np.power( A, 2))
+  B_p = np.sum(np.power(B-A, 2))
+  valueSNR = A_p/B_p
+  return (valueSNR)
 ###############################################################################################################################################################
 #### For data on WindowsPC
 #Datos Almacenados en WS
@@ -288,8 +299,10 @@ IntegrationTime = 16000
 #example use RAD: 
 #python TT.py RAD MEAN C:\Users\Desarrollo\Ubuntu_Folder\ExperimentHyspex\Fairchild_inoculate_sample3\fai_igs_03_16000_us_2x_2019-11-24T123406_corr 0 100 C:\Users\Desarrollo\Ubuntu_Folder\ExperimentHyspex\SaveTest\
 
+#example use SNR:
+#python TT.py SNR NONE C:\Users\Desarrollo\Ubuntu_Folder\ExperimentHyspex\Fairchild_inoculate_sample3\fai_igs_03_16000_us_2x_2019-11-24T123406_corr C:\Users\Desarrollo\Ubuntu_Folder\ExperimentHyspex\Fairchild_inoculate_sample3\fai_igs_03_16000_us_2x_2019-11-24T123406_corr C:\Users\Desarrollo\Ubuntu_Folder\ExperimentHyspex\SaveTest\
 
-_DEBUG_ON = 0
+_DEBUG_ON = 1
 
 _MOD = sys.argv[1]
 
@@ -352,11 +365,11 @@ if(_MOD == "RAD"):
         if(not _DEBUG_ON):
             if(_ALG == "MEAN"):
                 Data2Save = radiometricResponseNumpy( ArrayCalPoint, DataRecv[:,:,:], BLACK_REF_IMG[:,:,:], SpectralReference, IntegrationTime, 1)
-                envi.save_image( _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + '_RAD_MEAN_'+ str(_MIN) + '_' + str(_MAX) + '.hdr', Data2Save.astype(float), metadata = static_hdr, force=True, interleave='bil', ext='.hyspex')
+                envi.save_image( _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + '_RAD_MEAN_'+ str(_MIN) + '_' + str(_MAX) + '.hdr', np.float32(Data2Save), metadata = static_hdr, force=True, interleave='bil', ext='.hyspex')
                 print('OK and save data onDisk ')
             elif(_ALG == "MEDIAN"):
                 Data2Save = radiometricResponseNumpyMEDIAN( ArrayCalPoint, DataRecv[:,:,:], BLACK_REF_IMG[:,:,:], SpectralReference, IntegrationTime, 1)
-                envi.save_image( _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + '_RAD_MEDIAN_'+ str(_MIN) + '_' + str(_MAX) + '.hdr', Data2Save.astype(float), metadata = static_hdr, force=True, interleave='bil', ext='.hyspex')
+                envi.save_image( _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + '_RAD_MEDIAN_'+ str(_MIN) + '_' + str(_MAX) + '.hdr', np.float32(Data2Save), metadata = static_hdr, force=True, interleave='bil', ext='.hyspex')
                 print('OK and save data onDisk ')
             else:
                 print("No define. Posible ERROR.!!!!!!!!!!!!!")
@@ -365,5 +378,21 @@ if(_MOD == "RAD"):
 
     else:
         print("ERROR define number argument")
+######################### SNR #########################
+elif(_MOD == "SNR"):
+    if( len(sys.argv) == 6):
+        _ALG = sys.argv[2]
+        _FILE_PATH_A = sys.argv[3]
+        _FILE_PATH_B = sys.argv[4]
+        _FILE_PATH_SAVE = sys.argv[5]
+        if(_DEBUG_ON):
+            print("> SNR!")
+            print("> _ALG: ", _ALG)
+            print("> _FILE_PATH_A: ", _FILE_PATH_A)
+            print("> _FILE_PATH_B: ", _FILE_PATH_B)
+            print("> _FILE_PATH_SAVE: ", _FILE_PATH_SAVE)
+        
+    else:
+        print("ERROR:SNR:00 define number argument")   
 else:
     print("Command no define")
