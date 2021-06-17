@@ -454,3 +454,33 @@ diseased_group
 │       └── tom_dgs_05_16000_us_2x_2019-11-29T115840_corr.hyspex
 
 ################################################################################
+
+Proceso de RAD+ILU con el algotimo diseñado, tiempo:
+
+Time2Complete:  03:45:34  |   H:M:S
+
+Tommy->control_group  
+
+                    Total objects: 66
+                    Total size: 119.591 GBytes (128409675570 Bytes)
+                    sample_1
+                            Total objects: 12
+                            Total size: 21.744 GBytes (23347213740 Bytes)
+                    sample_2
+                            Total objects: 12
+                            Total size: 21.744 GBytes (23347213740 Bytes)
+                    sample_3
+                            Total objects: 14
+                            Total size: 25.368 GBytes (27238416030 Bytes)
+                    sample_4
+                            Total objects: 16
+                            Total size: 28.992 GBytes (31129618320 Bytes)
+                    sample_5
+                          Total objects: 12
+                          Total size: 21.744 GBytes (23347213740 Bytes)
+
+Tommy->diseased_group
+
+
+
+################################################################################
