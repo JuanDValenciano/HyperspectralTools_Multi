@@ -28,9 +28,9 @@ import pandas as pd
 if "linux" in platform:  #No sure this work on MAC?¿
     print("Linux")
     print("Colab???")
-    COLAB       = 0
-    LINUX_PC    = 1
-    WSL         = 1&LINUX_PC
+    COLAB       = 1
+    LINUX_PC    = 0
+    WSL         = 2&LINUX_PC
     WINDOWS_PC  = 0
 elif "darwin" in platform:
     print("mac")
@@ -318,14 +318,14 @@ def correctIlumNumpy_OtherPath( ArrayPoint, DataRef, ArrayPointApply, SpectralRe
   New_DataTesReference = ArrayPointApply[:,:,:] #Mod la otra imagen para tener en cuenta.
   valorRefCompleto = np.zeros((N_ROWS,N_COLS,N_BANDS), dtype=np.float32)
 
-  for i in tnrange(3800, desc='??'):
+  for i in range(3800):
     valorRefCompleto[i,:,:] = ValorCoef[:,:] 
   if(_DEBUG_ON):
     print(valorRefCompleto[:,:,0].shape)
     print(New_DataTesReference[:,:,0].shape)
     print(NewMean_DataTesReference[:,:,0].shape)
 
-  for j in tnrange(160, desc='??'):
+  for j in range(160):
     NewMean_DataTesReference[:,:,j] = np.clip( (New_DataTesReference[:,:,j] *  valorRefCompleto[:,:,j]).astype(float), a_min=0, a_max=None)
   #NewMean_DataTesReference
 
@@ -353,14 +353,14 @@ def correctIlumNumpyMEDIAN_OtherPath(ArrayPoint, DataRef, ArrayPointApply, Spect
   New_DataTesReference = ArrayPointApply[:,:,:]
   valorRefCompleto = np.zeros((N_ROWS,N_COLS,N_BANDS), dtype=np.float32)
 
-  for i in tnrange(3800, desc='??'):
+  for i in range(3800):
     valorRefCompleto[i,:,:] = ValorCoef[:,:] 
   if(_DEBUG_ON):
     print(valorRefCompleto[:,:,0].shape)
     print(New_DataTesReference[:,:,0].shape)
     print(NewMean_DataTesReference[:,:,0].shape)
 
-  for j in tnrange(160, desc='??'):
+  for j in range(160):
     NewMean_DataTesReference[:,:,j] = np.clip( (New_DataTesReference[:,:,j] *  valorRefCompleto[:,:,j]).astype(float), a_min=0, a_max=None)
   #NewMean_DataTesReference
 
@@ -587,7 +587,7 @@ IntegrationTime = 16000
 #example use RAD+ILU_OTH: 
 #python ForColab.py RAD+ILU_OTH MEAN /mnt/c/Users/Desarrollo/Ubuntu_Folder/ExperimentHyspex/Fairchild_inoculate_sample3/fai_igs_03_16000_us_2x_2019-11-24T123406_corr /mnt/c/Users/Desarrollo/Ubuntu_Folder/ExperimentHyspex/Fairchild_inoculate_sample3/fai_igs_03_16000_us_2x_2019-11-24T123406_corr 0 100 /mnt/c/Users/Desarrollo/Ubuntu_Folder/ExperimentHyspex/SaveTest/
 
-_DEBUG_ON = 1
+_DEBUG_ON = 0
 
 _MOD = sys.argv[1]
 
@@ -878,7 +878,7 @@ elif(_MOD == "RAD_OTH"):
                 envi.save_image( _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + _NAME_PROCESS + '_MEAN_' + str(_MIN) + '_' + str(_MAX) + '.hdr', np.float32(Data2Save), metadata = static_hdr, force=True, interleave='bil', ext='.hyspex')
                 print(">Save RAD_OTH MEAN")
                 print('SaveNamePath: ', _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + _NAME_PROCESS + '_MEAN_' + str(_MIN) + '_' + str(_MAX) + '.XXXXXXXXXX')
-            if(_ALG == "MEDIAN"):
+            elif(_ALG == "MEDIAN"):
                 Data2Save = radiometricResponseNumpyMEDIAN_OtherPath(ArrayCalPoint, DataRecv[:,:,:], DataRecv_Apply[:,:,:], BLACK_REF_IMG[:,:,:], SpectralReference, IntegrationTime, 1)
                 envi.save_image( _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + _NAME_PROCESS + '_MEDIAN_' + str(_MIN) + '_' + str(_MAX) + '.hdr', np.float32(Data2Save), metadata = static_hdr, force=True, interleave='bil', ext='.hyspex')
                 print(">Save RAD_OTH MEDIAN")
@@ -954,7 +954,7 @@ elif(_MOD == "ILU_OTH"):
                 envi.save_image( _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + _NAME_PROCESS + '_MEAN_' + str(_MIN) + '_' + str(_MAX) + '.hdr', np.float32(Data2Save), metadata = static_hdr, force=True, interleave='bil', ext='.hyspex')
                 print(">Save ILU_OTH MEAN")
                 print('SaveNamePath: ', _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + _NAME_PROCESS + '_MEAN_' + str(_MIN) + '_' + str(_MAX) + '.XXXXXXXXXX')
-            if(_ALG == "MEDIAN"):
+            elif(_ALG == "MEDIAN"):
                 Data2Save = correctIlumNumpyMEDIAN_OtherPath(ArrayCalPoint, DataRecv[:,:,:], DataRecv_Apply[:,:,:], SpectralReference, 1)
                 envi.save_image( _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + _NAME_PROCESS + '_MEDIAN_' + str(_MIN) + '_' + str(_MAX) + '.hdr', np.float32(Data2Save), metadata = static_hdr, force=True, interleave='bil', ext='.hyspex')
                 print(">Save ILU_OTH MEDIAN")
@@ -1029,7 +1029,7 @@ elif(_MOD == "RAD+ILU_OTH"):
                 envi.save_image( _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + _NAME_PROCESS + '_MEAN_' + str(_MIN) + '_' + str(_MAX) + '.hdr', np.float32(Data2Save), metadata = static_hdr, force=True, interleave='bil', ext='.hyspex')
                 print(">Save RAD+ILU_OTH MEAN")
                 print('SaveNamePath: ', _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + _NAME_PROCESS + '_MEAN_' + str(_MIN) + '_' + str(_MAX) + '.XXXXXXXXXX')
-            if(_ALG == "MEDIAN"):
+            elif(_ALG == "MEDIAN"):
                 Data2Save = correctIlumNumpyMEDIAN_OtherPath(ArrayCalPoint, radiometricResponseNumpyMEDIAN( ArrayCalPoint, DataRecv[:,:,:], BLACK_REF_IMG[:,:,:], SpectralReference, IntegrationTime, 1), radiometricResponseNumpyMEDIAN_OtherPath(ArrayCalPoint, DataRecv[:,:,:], DataRecv_Apply[:,:,:], BLACK_REF_IMG[:,:,:], SpectralReference, IntegrationTime, 1), SpectralReference, 1)
                 envi.save_image( _SAVE_PATH + str(nameFile2Create[len(nameFile2Create)-1]) + _NAME_PROCESS + '_MEDIAN_' + str(_MIN) + '_' + str(_MAX) + '.hdr', np.float32(Data2Save), metadata = static_hdr, force=True, interleave='bil', ext='.hyspex')
                 print(">Save RAD+ILU_OTH MEDIAN")
