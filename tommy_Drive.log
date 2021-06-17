@@ -455,7 +455,7 @@ diseased_group
 
 ################################################################################
 
-Proceso de RAD+ILU con el algotimo diseñado, tiempo:
+Proceso de "RAD+ILU" usando "MEAN" con el algotimo diseñado, tiempo:
 
 Time2Complete:  03:45:34  |   H:M:S
 
