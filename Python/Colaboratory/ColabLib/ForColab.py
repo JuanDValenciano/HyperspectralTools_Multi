@@ -511,7 +511,7 @@ def radiometricResponseNumpyMEDIAN_OtherPath( ArrayPoint, DataRef, ArrayPointApp
   N_ROWS, N_COLS, N_BANDS = ArrayPointApply.shape
   dataTestCalibrada = np.zeros((N_ROWS, N_COLS, N_BANDS), dtype=np.float32)
   
-  for row in tnrange(N_ROWS):
+  for row in range(N_ROWS):
       for col in range(N_COLS):
           dataTestCalibrada[row,col,:] = np.clip(  np.clip((ArrayPointApply[row,col,:]).astype(float) - (BlackRef[0,0,:]).astype(float), a_min=0, a_max=None)/(NewRadianceCamera[0,0,:]*IntegrationTime), a_min=0, a_max=None)
     
