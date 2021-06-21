@@ -28,9 +28,9 @@ import pandas as pd
 if "linux" in platform:  #No sure this work on MAC?¿
     print("Linux")
     print("Colab???")
-    COLAB       = 1
-    LINUX_PC    = 0
-    WSL         = 2&LINUX_PC
+    COLAB       = 0
+    LINUX_PC    = 1
+    WSL         = 1&LINUX_PC
     WINDOWS_PC  = 0
 elif "darwin" in platform:
     print("mac")
@@ -526,6 +526,8 @@ def radiometricResponseNumpyMEDIAN_OtherPath( ArrayPoint, DataRef, ArrayPointApp
   #dataTestCalibrada.data = None
   return (dataTestCalibrada)
 ###############################################################################################################################################################
+
+###############################################################################################################################################################
 #Datos Almacenados en WS
 # Black Reference and spectral target.
 if(COLAB):
@@ -587,7 +589,7 @@ IntegrationTime = 16000
 #example use RAD+ILU_OTH: 
 #python ForColab.py RAD+ILU_OTH MEAN /mnt/c/Users/Desarrollo/Ubuntu_Folder/ExperimentHyspex/Fairchild_inoculate_sample3/fai_igs_03_16000_us_2x_2019-11-24T123406_corr /mnt/c/Users/Desarrollo/Ubuntu_Folder/ExperimentHyspex/Fairchild_inoculate_sample3/fai_igs_03_16000_us_2x_2019-11-24T123406_corr 0 100 /mnt/c/Users/Desarrollo/Ubuntu_Folder/ExperimentHyspex/SaveTest/
 
-_DEBUG_ON = 0
+_DEBUG_ON = 1
 
 _MOD = sys.argv[1]
 
@@ -664,7 +666,6 @@ if(_MOD == "RAD"):
                 print("No define. Posible ERROR.!!!!!!!!!!!!!")
         else:
             print("If not Error Not procces data!!! Check the _DEBUG_ON")
-
     else:
         print("ERROR define number argument")
 elif(_MOD == "RAD+ILU"):
@@ -1040,5 +1041,17 @@ elif(_MOD == "RAD+ILU_OTH"):
             print("If not Error Not procces data!!! Check the _DEBUG_ON")
     else:
         print("ERROR define number argument") 
+elif(_MOD == "MNF+MASK"):
+    if( len(sys.argv) == 4):
+        _FILE_PATH = sys.argv[2]
+        _SAVE_PATH = sys.argv[3]
+        if(_DEBUG_ON):
+            print("> MNF+MASK ")
+            print("Recv _FILE_PATH: ", _FILE_PATH)
+            print("Recv _SAVE_PATH: ", _SAVE_PATH)
+            #Check \ on the end save Path!!!!!!
+            print("Send EndSave \:", _SAVE_PATH[len(_SAVE_PATH)-1])
+    else:
+        print("ERROR define number argument")
 else:
     print("Command no define")
