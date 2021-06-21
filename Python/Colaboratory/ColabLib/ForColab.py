@@ -589,6 +589,9 @@ IntegrationTime = 16000
 #example use RAD+ILU_OTH: 
 #python ForColab.py RAD+ILU_OTH MEAN /mnt/c/Users/Desarrollo/Ubuntu_Folder/ExperimentHyspex/Fairchild_inoculate_sample3/fai_igs_03_16000_us_2x_2019-11-24T123406_corr /mnt/c/Users/Desarrollo/Ubuntu_Folder/ExperimentHyspex/Fairchild_inoculate_sample3/fai_igs_03_16000_us_2x_2019-11-24T123406_corr 0 100 /mnt/c/Users/Desarrollo/Ubuntu_Folder/ExperimentHyspex/SaveTest/
 
+#example use MNF+MASK: 
+#python ForColab.py MNF+MASK /mnt/c/Users/Desarrollo/Ubuntu_Folder/ExperimentHyspex/Fairchild_inoculate_sample3/fai_igs_03_16000_us_2x_2019-11-24T123406_corr /mnt/c/Users/Desarrollo/Ubuntu_Folder/ExperimentHyspex/SaveTest/
+
 _DEBUG_ON = 1
 
 _MOD = sys.argv[1]
@@ -1045,12 +1048,15 @@ elif(_MOD == "MNF+MASK"):
     if( len(sys.argv) == 4):
         _FILE_PATH = sys.argv[2]
         _SAVE_PATH = sys.argv[3]
-        if(_DEBUG_ON):
-            print("> MNF+MASK ")
-            print("Recv _FILE_PATH: ", _FILE_PATH)
-            print("Recv _SAVE_PATH: ", _SAVE_PATH)
-            #Check \ on the end save Path!!!!!!
-            print("Send EndSave \:", _SAVE_PATH[len(_SAVE_PATH)-1])
+        if(_SAVE_PATH[len(_SAVE_PATH)-1] == "/"):
+            if(_DEBUG_ON):
+                print("> MNF+MASK ")
+                print("Recv _FILE_PATH: ", _FILE_PATH)
+                print("Recv _SAVE_PATH: ", _SAVE_PATH)
+                #Check \ on the end save Path!!!!!!
+                print("Send EndSave \:", _SAVE_PATH[len(_SAVE_PATH)-1])
+        else:
+            print("ERROR Add / and the end!")
     else:
         print("ERROR define number argument")
 else:
