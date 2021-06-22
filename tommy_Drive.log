@@ -383,7 +383,7 @@ diseased_group
                     sample_5
                       Total objects: 14
                       Total size: 12.711 GBytes (13647947684 Bytes)
-                      
+
 ├── diseased_group
 │   ├── sample_1
 │   │   ├── tom_dgs_01_16000_us_2x_2019-11-24T135629_corr.hdr
@@ -459,7 +459,7 @@ Proceso de "RAD+ILU" usando "MEAN" con el algotimo diseñado, tiempo:
 
 Time2Complete:  03:45:34  |   H:M:S
 
-Tommy->control_group  
+Tommy->control_group
 
                     Total objects: 66
                     Total size: 119.591 GBytes (128409675570 Bytes)
@@ -480,6 +480,10 @@ Tommy->control_group
                           Total size: 21.744 GBytes (23347213740 Bytes)
 
 Tommy->diseased_group
+                    TODO anotar los tiempos que esto llego acabo.
+
+Tommy->inoculated_group
+                    TODO anotar los tiempos que esto llego acabo.
 
 
 
