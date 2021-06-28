@@ -457,6 +457,10 @@ diseased_group
 
 Proceso de "RAD+ILU" usando "MEAN" con el algotimo diseñado, tiempo:
 
+Tommy
+      Total objects: 260
+      Total size: 471.115 GBytes (505856297700 Bytes)
+
 Time2Complete:  03:45:34  |   H:M:S
 
 Tommy->control_group
@@ -480,11 +484,42 @@ Tommy->control_group
                           Total size: 21.744 GBytes (23347213740 Bytes)
 
 Tommy->diseased_group
-                    TODO anotar los tiempos que esto llego acabo.
+                    Total objects: 62
+                    Total size: 112.343 GBytes (120627270990 Bytes)
+                    sample_1
+                            Total objects: 12
+                            Total size: 21.744 GBytes (23347213740 Bytes)
+                    sample_2
+                            Total objects: 12
+                            Total size: 21.744 GBytes (23347213740 Bytes)
+                    sample_3
+                            Total objects: 12
+                            Total size: 21.744 GBytes (23347213740 Bytes)
+                    sample_4
+                            Total objects: 12
+                            Total size: 21.744 GBytes (23347213740 Bytes)
+                    sample_5
+                            Total objects: 14                                                                                                       
+                            Total size: 25.368 GBytes (27238416030 Bytes) 
 
 Tommy->inoculated_group
-                    TODO anotar los tiempos que esto llego acabo.
-
+                    Total objects: 132
+                    Total size: 239.182 GBytes (256819351140 Bytes)
+                    sample_1
+                            Total objects: 26
+                            Total size: 47.112 GBytes (50585629770 Bytes)
+                    sample_2
+                            Total objects: 28
+                            Total size: 50.736 GBytes (54476832060 Bytes)
+                    sample_3
+                            Total objects: 24
+                            Total size: 43.488 GBytes (46694427480 Bytes)
+                    sample_4
+                            Total objects: 28
+                            Total size: 50.736 GBytes (54476832060 Bytes)
+                    sample_5
+                            Total objects: 26
+                            Total size: 47.112 GBytes (50585629770 Bytes)
 
 
 ################################################################################

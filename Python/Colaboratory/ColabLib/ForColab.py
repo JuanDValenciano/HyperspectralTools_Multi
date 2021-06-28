@@ -30,7 +30,7 @@ import cv2
 if "linux" in platform:  #No sure this work on MAC?¿
     print("Linux")
     print("Colab???")
-    COLAB       = 0
+    COLAB       = 1
     LINUX_PC    = 1
     WSL         = 0&LINUX_PC
     WINDOWS_PC  = 0
@@ -549,7 +549,10 @@ def segmentacionHojas(RGBimage,outputFileName,saveImage):
     di=cv2.morphologyEx(di, cv2.MORPH_CLOSE, kernel)
     Img_segmentada = RGBimage.copy()
     segmentado     = RGBimage.copy()
-    contours, hierarchy =   cv2.findContours(di,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
+    if(cv2.__version__ != "3.4.2"):
+        contours, hierarchy =   cv2.findContours(di,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
+    else:
+        image, contours, hierarchy =   cv2.findContours(di,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
     max_index=0
     max_area=0
 
@@ -584,7 +587,6 @@ elif(LINUX_PC):
     print(">!Solo Linux!!!!!!!")
     BlackReference_PATH     = "/home/juandval/GitHub/UNAL/GoogleDrive/Tools/BlackReference_Single"
     spectral_target_PATH    = "/home/juandval/GitHub/UNAL/GoogleDrive/Tools/spectra_target"
-
 elif(WINDOWS_PC):
     print(">!CargarpathWindows!!!!!!!")
     BlackReference_PATH     = '/Users/Desarrollo/Ubuntu_Folder/ToolsBlackREF_HIS/BlackReference/BlackReference_Single'
@@ -639,7 +641,7 @@ IntegrationTime = 16000
 #example on Linux use MNF+MASK:
 #python ForColab.py MNF+MASK /home/juandval/GitHub/UNAL/GoogleDrive/tommy/inoculated_group/sample_5/tom_igs_05_16000_us_2x_2019-11-28T163929_corr_RAD+ILU_MEAN_59_137 /home/juandval/GitHub/UNAL/GoogleDrive/tommy/inoculated_group/SAVE_MNF+MASK/
 
-_DEBUG_ON = 1
+_DEBUG_ON = 0
 
 _MOD = sys.argv[1]
 
